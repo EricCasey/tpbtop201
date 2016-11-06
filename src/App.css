@@ -34,6 +34,10 @@
   max-width: 50px;
   margin: 0 0;
   float: left;
+  color: red;
+}
+.button:hover {
+  color:blue;
 }
 .data {
   /*width: 80%;*/
