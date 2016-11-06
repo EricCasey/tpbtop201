@@ -1,0 +1,44 @@
+.App {
+  /*text-align: center;*/
+  background: darkgrey;
+}
+.box {
+  border: 1px solid black;
+  width: 50%;
+  /*height: 50px;*/
+  margin: 2px auto;
+}
+.rank {
+  float: left;
+  position: relative;
+  margin: 0 0;
+}
+.tpbLink {
+  font-size: 12px;
+}
+.hidden {
+  display:none;
+}
+.shown {
+  display:block;
+  border: 1px solid red;
+}
+.yt {
+  width: 100%;
+}
+#leftAd {
+  height: 600px;
+  width: 160px;
+  border: 2px solid black;
+  margin-left: 40px;
+  margin-top: 40px;
+  position: fixed;
+}
+#rightAd {
+  height: 600px;
+  width: 160px;
+  border: 2px solid black;
+  top: 40px;
+  right: 40px;
+  position: fixed;
+}
