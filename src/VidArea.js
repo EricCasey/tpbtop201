@@ -14,7 +14,7 @@ class VidArea extends Component {
   render() {
   // console.log(films)
   let link = `https://www.youtube.com/embed/${this.props.trailer.replace(/['"]+/g, '')}`
-  console.log(link)
+  // console.log(link)
   // console.log(trailers)
   if (this.props.trailerState === 'hidden') { return (<div></div>) }
   return (

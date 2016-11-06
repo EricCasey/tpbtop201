@@ -3,10 +3,15 @@
   background: darkgrey;
 }
 .box {
-  border: 1px solid black;
+  border: 2px solid black;
   width: 50%;
-  /*height: 50px;*/
+  min-height: 40px;
   margin: 2px auto;
+  overflow:hidden;
+}
+.box p {
+  margin: 2px 0 0 18px;
+  max-width: 100%;
 }
 .rank {
   float: left;
@@ -21,10 +26,20 @@
 }
 .shown {
   display:block;
-  border: 1px solid red;
 }
 .yt {
   width: 100%;
+}
+.button {
+  max-width: 50px;
+  margin: 0 0;
+  float: left;
+}
+.data {
+  /*width: 80%;*/
+  margin: 0 0;
+  /*position:absolute;*/
+  /*float: right;*/
 }
 #leftAd {
   height: 600px;
@@ -41,4 +56,16 @@
   top: 40px;
   right: 40px;
   position: fixed;
+}
+#topAd {
+  height: 90px;
+  width: 728px;
+  border: 2px solid black;
+  margin: 15px auto 30px auto;
+}
+#bottomAd {
+  height: 90px;
+  width: 728px;
+  border: 2px solid black;
+  margin: 15px auto 30px auto;
 }
