@@ -7,7 +7,7 @@ const films = require('../src/data/filmData.json');
 
 var youTube = new YouTube();
 
-youTube.setKey('AIzaSyB1OOSpTREs85WUMvIgJvLTZKye4BVsoFU');
+youTube.setKey('AIzaSyDQK567hB184xICxJCbet7X8fy7-0iJ5kk');
 
 // console.log(films)
 var trailers = []
